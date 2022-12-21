@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: Outfit,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 9px 45px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 2px 9px 45px 0px rgba(0,0,0,0.39);
+    box-shadow: 2px 9px 45px 0px rgba(0,0,0,0.39);
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+
+.image img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.image{
+    padding: 1rem 0;
+    position: relative;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin: 0 1.7rem;
+}
+
+.title h1{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.title h1:hover{
+    color: hsl(178, 100%, 50%);
+
+}
+
+.desc{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(212, 211, 211);
+    margin-bottom: 1rem;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    margin-bottom: 1.4rem;
+    position: relative;
+}
+
+hr {
+    color: gray;
+}
+
+
+.author img{
+    width: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.author{
+    margin: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    position: relative;
+}
+
+.author p{
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    color: hsl(215, 51%, 70%);
+}
+
+.author span{
+    color: white;
+    cursor: pointer;
+}
+
+.author span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.eth img,
+.time img{
+    position: absolute;
+    top: 1px;
+}
+
+.break{
+    margin: 0 1.5rem;
+}
+
+.break hr{
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    border: none;
+}
+
+.eth span{
+    margin-left: 16px;
+    color: hsl(178, 100%, 50%)
+}
+
+.time span{
+    margin-left: 22px;
+    color: hsl(215, 51%, 70%);
+}
+
+
